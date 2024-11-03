@@ -1,0 +1,99 @@
+
+
+.overal{
+
+    display: grid;
+    justify-content: center;
+
+}
+
+
+.btnyaratish{
+    background: #14c853;
+    color: #fff;
+    padding: 8px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: solid rgb(0, 139, 23);
+
+}
+
+#rangliDiv{
+    width: 200px;
+    height: 200px;
+    background: rgb(9, 8, 8);
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+#raqam{
+    font-size: 24px;
+     margin-top: 20px;
+}
+
+.tasodifraqam{
+    background: #2a70eb;
+    color: #fff;
+    padding: 8px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: solid darkblue;
+}
+
+.fonniozgartirish{
+    background: #c9571d;
+    color: #fff;
+    padding: 8px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: solid rgb(189, 83, 41);
+}
+
+
+
+
+
+
+
+.title {
+    color: #333;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.input {
+    width: 80%;
+    padding: 8px;
+    font-size: 16px;
+    margin: 10px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #218838;
+}
+
+.result {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #555;
+}

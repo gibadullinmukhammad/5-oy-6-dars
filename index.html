@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="overal">
+
+    
+
+    <!-- ---------------------------1misol------------------------------- -->
+    <button class="btnyaratish" onclick="yangiButtonYarat() ">Button yaratish</button>
+    <div id="buttonContainer"></div>
+    <!-- ---------------------------2misol------------------------------- -->
+
+    <div id="rangliDiv"></div>
+
+    <!-- ---------------------------3misol------------------------------- -->
+
+    <button class="tasodifraqam" onclick="tasodifiyRaqam() ">Tasodifiy raqam</button>
+    <div id="raqam"></div>
+    <!-- ---------------------------4misol------------------------------- -->
+
+
+    <button class="fonniozgartirish" onclick="fonniOzgartir()">Fon rangini o'zgartirish</button>
+
+   
+
+    <!-- ---------------------------5misol------------------------------- -->
+
+
+    <div class="container">
+        <h1 class="title">Man o'ylagan sonni topin</h1>
+        <input type="number" class="input" id="userGuess" min="1" max="10" placeholder="1 dan 10 gacha son kiriting">
+        <button class="button" onclick="checkGuess()">Topish</button>
+        <div class="result" id="result"></div>
+    </div>
+
+</div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
